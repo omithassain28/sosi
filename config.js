@@ -1,5 +1,6 @@
+require('dotenv').config()
 module.exports = {
-  token: "MTA2NDQ0Nzc1MTk4NDc5MTU3Mg.GJdD-X.nk8Oqr2lmTvXqBns6zPYVMOGsw7Zbqd9kaELhY",
+  token: process.env.TOKEN,
   prefix: "*",
   mongoURI: "mongodb+srv://SpaceMusic:shivamop@cluster0.kgvij.mongodb.net/Ok?retryWrites=true&w=majority",
   dbl: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk0NTAwMzkzNzU0NTcyODAyMSIsImJvdCI6dHJ1ZSwiaWF0IjoxNjQ4Mzg2MTA4fQ.Yfbrnwfy1SwNIFyZjt5JtOzFiDEFRbkVxyr62PM3VEs",
