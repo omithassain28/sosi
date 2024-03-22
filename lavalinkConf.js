@@ -6,9 +6,9 @@ module.exports = {
       "secure": false
     },
 {
-      "name": "King5929",
-      "url": "jirayu-lavalink.rlss.in.th:2353",
-      "auth": "FuqW7CB2f8Kcwp36xADV5N",
+      "name": "Creavite",
+      "url": "us1.lavalink.creavite.co:20080",
+      "auth": "auto.creavite.co",
       "secure": false
     }
   ]
