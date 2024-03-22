@@ -6,9 +6,9 @@ module.exports = {
       "secure": false
     },
 {
-      "name": "kronix",
-      "url": "lava.link:80",
-      "auth": "kronix",
+      "name": "King5929",
+      "url": "jirayu-lavalink.rlss.in.th:2353",
+      "auth": "FuqW7CB2f8Kcwp36xADV5N",
       "secure": false
     }
   ]
