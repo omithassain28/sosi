@@ -6,9 +6,9 @@ module.exports = {
       "secure": false
     },
 {
-      "name": "DevamOP",
-      "url": "lavalink.devamop.in:80",
-      "auth": "DevamOP",
+      "name": "FuqW7CB2f8Kcwp36xADV5N",
+      "url": "jirayu-lavalink.rlss.in.th:2353",
+      "auth": "FuqW7CB2f8Kcwp36xADV5N",
       "secure": false
     }
   ]
