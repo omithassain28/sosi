@@ -3,14 +3,6 @@ const { Partials , GatewayIntentBits, Util, ActivityType } = require('discord.js
 const { Guilds, GuildMessages, GuildVoiceStates, GuildMessageReactions, MessageContent, GuildMembers, GuildWebhooks } = GatewayIntentBits;
 const { token} = require('./config');
 const Client = require('./structures/Client.js');
-module.exports = client;
-var http = require("http");
-http
-  .createServer(function (req, res) {
-    res.write("king Is Alive");
-    res.end();
-  })
-  .listen(8080);
 
 
 const clientOptions = {
