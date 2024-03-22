@@ -3,6 +3,14 @@ const { Partials , GatewayIntentBits, Util, ActivityType } = require('discord.js
 const { Guilds, GuildMessages, GuildVoiceStates, GuildMessageReactions, MessageContent, GuildMembers, GuildWebhooks } = GatewayIntentBits;
 const { token} = require('./config');
 const Client = require('./structures/Client.js');
+const express = require('express');
+const app = express();
+app.get('/', (req, res) => {
+  res.send('Hello Express app!')
+});
+app.listen(3000, () => {
+  console.log('[INFO] Bot Online!');
+});
 
 
 const clientOptions = {
